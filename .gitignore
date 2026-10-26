@@ -1,0 +1,41 @@
+# .NET / IDE build outputs
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Generated packages and test results
+artifacts/
+publish/
+out/
+TestResults/
+*.nupkg
+*.snupkg
+
+# Local device diagnostics: review actual output paths before release
+logs/
+diagnostics/
+diagnostic-reports/
+battery-diagnostics-*.json
+settings.json
+settings.json.tmp
+*.log
+*.dmp
+*.etl
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
+
+# OS metadata
+Thumbs.db
+.DS_Store
